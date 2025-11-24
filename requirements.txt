@@ -1,0 +1,9 @@
+anthropic
+beautifulsoup4
+fastapi
+pandas
+python-dotenv
+python-multipart
+requests
+sqlalchemy
+uvicorn
