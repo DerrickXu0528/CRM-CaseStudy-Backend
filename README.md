@@ -2,7 +2,7 @@
 
 - Python 3.11 or higher
 - Git
-- Anthropic API key ([Please Contact Developer](https://console.anthropic.com/))
+- Anthropic API key ([Claude API Generation Link](https://console.anthropic.com/))
 
 ### Local Development Setup
 
@@ -25,7 +25,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Create .env file
-echo "ANTHROPIC_API_KEY=Please Contact Developer" > .env
+echo "ANTHROPIC_API_KEY=Your API Key" > .env
 
 # Run the server
 uvicorn main:app --reload
